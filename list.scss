@@ -1,0 +1,11 @@
+$wds-list-font-size: 14px;
+$wds-list-font-weight: normal;
+$wds-list-line-height: 1em;
+$wds-list-padding: 11px 0;
+
+.wds-list li {
+  font-size: #{$wds-list-font-size};
+  font-weight: #{$wds-list-font-weight};
+  line-height: #{$wds-list-line-height};
+  padding: #{$wds-list-padding};
+}
