@@ -2,16 +2,18 @@ $wds-button-padding: 7px 18px;
 $wds-button-font-size: 12px;
 $wds-button-border-radius: 3px;
 $wds-button-font-weight: 600;
-$wds-button-transition: 300ms;
+$wds-button-transition: .3s;
 $wds-button-line-height: 16px;
+$wds-button-letter-spacing: .15px;
 
 .wds-button {
   padding: #{$wds-button-padding};
   font-size: #{$wds-button-font-size};
   border-radius: #{$wds-button-border-radius};
   font-weight: #{$wds-button-font-weight};
-  transition: #{wds-button-transition};
-  line-height: #{wds-button-line-height};
+  transition: #{$wds-button-transition};
+  line-height: #{$wds-button-line-height};
+  letter-spacing: #{$wds-button-letter-spacing};
   text-transform: uppercase;
   cursor: pointer;
   display: inline-flex;
