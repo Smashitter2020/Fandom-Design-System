@@ -12,6 +12,7 @@ $wds-button-line-height: 16px;
   font-weight: #{$wds-button-font-weight};
   transition: #{wds-button-transition};
   line-height: #{wds-button-line-height};
+  text-transform: uppercase;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
