@@ -8,3 +8,26 @@
   --wds-fandom-color-light-gray: #838d86;
   --wds-fandom-color-purple-black: #280033;
 }
+[data-theme=light] {
+  --fandom-primary-color: #f5f3f5;
+  --fandom-primary-background-color: #fff;
+  --fandom-secondary-color: #fff;
+  --fandom-secondary-color--hover: #e9e7e8;
+  --fandom-secondary-reverse-color: #1e0c1b;
+  --fandom-text-color: #1e0c1b;
+  --fandom-text-color--secondary: #595358;
+  --fandom-text-color--hover: #67295d;
+  --fandom-text-color--secondary--hover: #242224;
+  --fandom-heading-color: #520044;
+  --fandom-heading-color--hover: black;
+  --fandom-link-color: #9b004e;
+  --fandom-link-color--hover: #6d0037;
+  --fandom-accent-color: #520044;
+  --fandom-accent-color--secondary: #520044;
+  --fandom-accent-color--hover: #b80099;
+  --fandom-border-color: #595358;
+  --fandom-border-color--secondary: #d6d0d5;
+  --fandom-border-color--light: #d6d0d5;
+  --fandom-image-empty-state-color: #d6d0d5;
+  --fandom-image-empty-state-color--secondary: #f5f3f5;
+}
