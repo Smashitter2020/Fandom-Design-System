@@ -5,7 +5,8 @@ $wds-dialog-min-width: 280px;
 $wds-dialog-max-width: 640px;
 
 .wds-dialog__wrapper {
-
+  min-width: #{$wds-dialog-min-width};
+  max-width: #{$wds-dialog-max-width};
 }
 @keyframes move-in {
   0% {
