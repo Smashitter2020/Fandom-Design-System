@@ -3,10 +3,15 @@ $wds-dialog-border-radius: 3px;
 $wds-dialog-margin: 0 auto;
 $wds-dialog-min-width: 280px;
 $wds-dialog-max-width: 640px;
+$wds-dialog-border-radius: 3px;
+$wds-dialog-background: #f4f3f4;
 
 .wds-dialog__wrapper {
   min-width: #{$wds-dialog-min-width};
   max-width: #{$wds-dialog-max-width};
+  background: #{$wds-dialog-background};
+  border-radius: #{$wds-dialog-border-radius};
+  animation: #{$wds-dialog-animation};
 }
 @keyframes move-in {
   0% {
