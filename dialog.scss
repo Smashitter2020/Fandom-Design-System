@@ -9,10 +9,10 @@ $wds-dialog-background: #f4f3f4;
 $wds-dialog-content-font-size: 16px; 
 $wds-dialog-content-padding: 24px;
 
-$wds-dialog-font-weight: bold;
-$wds-dialog-font-size: 24px;
-$wds-dialog-line-height: 28px;
-$wds-dialog-padding: 24px 24px 0;
+$wds-dialog-title-font-weight: bold;
+$wds-dialog-title-font-size: 24px;
+$wds-dialog-title-line-height: 28px;
+$wds-dialog-title-padding: 24px 24px 0;
 
 .wds-dialog__wrapper {
   min-width: #{$wds-dialog-min-width};
@@ -22,7 +22,10 @@ $wds-dialog-padding: 24px 24px 0;
   animation: #{$wds-dialog-animation};
 }
 .wds-dialog__title {
-  font-weight: $
+  font-weight: #{$wds-dialog-title-font-weight};
+  font-size: #{$wds-dialog-title-font-size};
+  line-height: #{$wds-dialog-title-line-height};
+  padding: #{$wds-dialog-title-padding};
 }
 .wds-dialog__content {
   font-size: #{$wds-dialog-content-font-size};
