@@ -5,6 +5,8 @@ $wds-pill-letter-spacing: .25px;
 $wds-pill-line-height: 1;
 $wds-pill-margin: 3px 6px 3px 0;
 
+$wds-pill-label-padding: 9px 12px;
+
 .wds-pill {
   border-radius: #{$wds-pill-border-radius};
   font-size: #{$wds-pill-font-size};
@@ -13,4 +15,7 @@ $wds-pill-margin: 3px 6px 3px 0;
   line-height: #{$wds-pill-line-height};
   margin: #{$wds-pill-margin};
   display: inline-block;
+}
+.wds-pill__label {
+  padding: #{$wds-pill-label-padding};
 }
