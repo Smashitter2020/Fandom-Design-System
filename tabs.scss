@@ -3,13 +3,19 @@ $wds-tabber: 4px;
 $wds-tab-line-height: 14px;
 $wds-tab-position: relative;
 $wds-tab-active-color: #520042;
+$wds-tab-disabled-color: #0000040;
 
 .tabber.wds_tabber {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #00000040;
 }
 .wds-tabs__tab {
   cursor: pointer;
   position: #{$wds-tab-position};
+  display: inline-flex;
+}
+.wds-tabs__tab.disabled {
+  pointer-events: none;
+  color: #{$wds-tab-disabled-color};
 }
 .wds-tabs__tab.wds-is-current {
   color: #{$wds-tab-active-color};
