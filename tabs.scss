@@ -1,0 +1,17 @@
+$wds-tabber: 4px;
+
+$wds-tab-line-height: 14px;
+$wds-tab-position: relative;
+$wds-tab-active-color: #520042;
+
+.tabber.wds_tabber {
+  border-bottom: 1px solid #3a3a3a;
+}
+.wds-tabs__tab {
+  cursor: pointer;
+  position: #{$wds-tab-position};
+}
+.wds-tabs__tab.wds-is-current {
+  color: #{$wds-tab-active-color};
+  border-bottom: 3px #{$wds-tab-active-color} solid;
+}
