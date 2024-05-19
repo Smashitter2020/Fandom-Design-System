@@ -1,0 +1,16 @@
+$wds-pill-border-radius: 27px;
+$wds-pill-font-size: 14px;
+$wds-pill-font-weight: 500;
+$wds-pill-letter-spacing: .25px;
+$wds-pill-line-height: 1;
+$wds-pill-margin: 3px 6px 3px 0;
+
+.wds-pill {
+  border-radius: #{$wds-pill-border-radius};
+  font-size: #{$wds-pill-font-size};
+  font-weight: #{$wds-pill-font-weight};
+  letter-spacing: #{$wds-pill-letter-spacing};
+  line-height: #{$wds-pill-lin-height};
+  margin: #{$wds-pill-margin};
+  display: inline-block;
+}
