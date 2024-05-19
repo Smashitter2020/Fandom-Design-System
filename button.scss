@@ -23,4 +23,5 @@ $wds-button-disabled: .5;
 }
 .wds-button:disabled, .wds-button.disabled {
   opacity: #{$wds-button-disabled};
+  pointer-events: none;
 }
