@@ -1,3 +1,12 @@
+$wds-dialog-animation: move-in .2s;
+$wds-dialog-border-radius: 3px;
+$wds-dialog-margin: 0 auto;
+$wds-dialog-min-width: 280px;
+$wds-dialog-max-width: 640px;
+
+.wds-dialog__wrapper {
+
+}
 @keyframes move-in {
   0% {
     opacity: 0;
