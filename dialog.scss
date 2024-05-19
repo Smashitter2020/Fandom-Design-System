@@ -9,12 +9,20 @@ $wds-dialog-background: #f4f3f4;
 $wds-dialog-content-font-size: 16px; 
 $wds-dialog-content-padding: 24px;
 
+$wds-dialog-font-weight: bold;
+$wds-dialog-font-size: 24px;
+$wds-dialog-line-height: 28px;
+$wds-dialog-padding: 24px 24px 0;
+
 .wds-dialog__wrapper {
   min-width: #{$wds-dialog-min-width};
   max-width: #{$wds-dialog-max-width};
   background: #{$wds-dialog-background};
   border-radius: #{$wds-dialog-border-radius};
   animation: #{$wds-dialog-animation};
+}
+.wds-dialog__title {
+  font-weight: $
 }
 .wds-dialog__content {
   font-size: #{$wds-dialog-content-font-size};
