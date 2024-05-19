@@ -1,0 +1,14 @@
+$progress-bar-height: 1em;
+
+$progress-fill-height: 100%;
+
+.progress-bar {
+  width: 100%;
+  height: #{$progress-bar-height};
+  border-radius: 3px;
+  max-width: 50em;
+}
+.progress-fill {
+  height: #{$progress-fill-height};
+  width: 0;
+}
