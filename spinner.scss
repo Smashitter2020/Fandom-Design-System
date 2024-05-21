@@ -3,9 +3,16 @@ $wds-spinner-stroke-width: 5;
 
 .wds-spinner {
   animation: rotate .5s linear infinite;
+  stroke: #480048;
 }
 @keyframes rotate {
   100% {
     transform: rotate(360deg);
   }
 } 
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 125;
+  }
+}
