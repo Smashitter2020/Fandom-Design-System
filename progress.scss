@@ -18,7 +18,10 @@ $progress-fill-height: 100%;
   animation: indeterminate 2s linear infinite;
 }
 @keyframes indeterminate {
+  0% {
+    margin-left: -100%;
+  }
   100% {
-    transform: translateX(350%);
+    margin-left: 100%;
   }
 }
