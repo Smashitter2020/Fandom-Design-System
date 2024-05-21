@@ -3,6 +3,9 @@ $wds-spinner-stroke-width: 5;
 
 .wds-spinner {
   animation: rotate .5s linear infinite;
+}
+.wds-spinner__stroke {
+  stroke-width: #{$wds-spinner-stroke-width};
   stroke: #480048;
 }
 @keyframes rotate {
