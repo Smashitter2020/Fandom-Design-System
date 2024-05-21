@@ -1,2 +1,11 @@
 $wds-spinner-radius: 20;
 $wds-spinner-stroke-width: 5;
+
+.wds-spinner {
+  animation: rotate .5s linear infinite;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+} 
