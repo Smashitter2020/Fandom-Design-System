@@ -1,4 +1,3 @@
-$wds-spinner-radius: 20;
 $wds-spinner-stroke-width: 5;
 
 .wds-spinner {
@@ -6,7 +5,7 @@ $wds-spinner-stroke-width: 5;
 }
 .wds-spinner__stroke {
   stroke-width: #{$wds-spinner-stroke-width};
-  stroke: #480048;
+  animation: dash 3s linear infinite;
 }
 @keyframes rotate {
   100% {
@@ -15,7 +14,10 @@ $wds-spinner-stroke-width: 5;
 } 
 
 @keyframes dash {
-  100% {
+  0% {
     stroke-dashoffset: 125;
+  }
+  50% {
+    stroke-dashoffset: 0;
   }
 }
