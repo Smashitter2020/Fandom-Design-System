@@ -14,7 +14,7 @@ $wds-dialog-title-font-size: 24px;
 $wds-dialog-title-line-height: 28px;
 $wds-dialog-title-padding: 24px 24px 0;
 
-$wds-dialog-action-padding: 24px 24px 0;
+$wds-dialog-action-padding: 24px;
 
 .wds-dialog__wrapper {
   min-width: #{$wds-dialog-min-width};
