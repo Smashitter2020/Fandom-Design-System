@@ -1,0 +1,14 @@
+$wds-input-font-size: 16px;
+$wds-input-padding: 0 0 2px;
+
+.wds-input__field {
+  border: 0;
+  border-bottom: 1px solid #d6d0d5;
+  font-size: #{$wds-input-font-size};
+  padding: #{wds-input-padding};
+  line-height: 1;
+  resize: none;
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+}
