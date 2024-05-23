@@ -1,0 +1,18 @@
+.wds-button-group {
+  display: inline-flex;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.wds-button-group>.wds-button:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.wds-button-group>.wds-button.wds-is-secondary:not(:last-child) {
+  margin-right: -1px;
+}
+.wds-button-group>.wds-button {
+  border-radius: 0;
+  height: auto;
+  margin-left: auto;
+  margin-right: 1px;
+  padding: 7px 12px;
+}
