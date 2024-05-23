@@ -1,6 +1,10 @@
 $wds-input-font-size: 16px;
 $wds-input-padding: 0 0 2px;
 
+.wds-input {
+  position: relative;
+}
+
 .wds-input__field {
   border: 0;
   border-bottom: 1px solid #d6d0d5;
@@ -27,4 +31,5 @@ $wds-input-padding: 0 0 2px;
 }
 .wds-input__field:focus + .wds-input__label {
   top: -20px;
+  font-size: 12px;
 }
