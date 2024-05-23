@@ -45,6 +45,9 @@ $wds-dialog-action-padding: 24px;
   font-size: #{$wds-dialog-content-font-size};
   padding: #{$wds-dialog-content-padding};
 }
+.wds-dialog__actions {
+  padding: #{$wds-dialog-action-padding};
+}
 @keyframes move-in {
   0% {
     opacity: 0;
