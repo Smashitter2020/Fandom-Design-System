@@ -29,7 +29,7 @@ $wds-input-padding: 0 0 2px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.wds-input__field:focus + .wds-input__label {
+.wds-input__field:focus + .wds-input__label, .wds-input__field:valid + .wds-input__label {
   top: -20px;
   font-size: 12px;
 }
