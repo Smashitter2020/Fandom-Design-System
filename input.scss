@@ -14,3 +14,17 @@ $wds-input-padding: 0 0 2px;
   box-sizing: border-box;
   background: none;
 }
+
+.wds-input__label {
+  color: #3a3a3a80;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  transition: .2s ease all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.wds-input__field:focus + .wds-input__label {
+  top: -20px;
+}
