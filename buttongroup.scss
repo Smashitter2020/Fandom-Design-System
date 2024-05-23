@@ -6,6 +6,12 @@
 .wds-button-group>.wds-button:first-child {
   border-radius: 3px 0 0 3px;
 }
+.wds-button-group>.wds-button:last-child {
+  border-radius: 0 3px 3px 0;
+}
+.wds-button-group>.wds-button:not(:last-child) {
+  margin-right: -1px;
+}
 .wds-button-group>.wds-button.wds-is-secondary:not(:last-child) {
   margin-right: -1px;
 }
