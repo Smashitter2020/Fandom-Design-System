@@ -7,6 +7,8 @@ $wds-step-height: 12px;
 .wds-stepper__step {
   height: #{$wds-step-height};
   width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 .wds-stepper__step.progress-step__active:after {
   content: "";
