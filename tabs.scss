@@ -9,7 +9,7 @@ $wds-tab-transition: .1s;
 .wds-tabs__tab {
   cursor: pointer;
   position: #{$wds-tab-position};
-  transition: ${$wds-tab-transition} box-shadow;
+  transition: #{$wds-tab-transition} box-shadow;
   display: inline-flex;
 }
 .wds-tabs__tab.disabled {
