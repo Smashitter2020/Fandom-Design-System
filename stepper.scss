@@ -1,4 +1,4 @@
-$wds-step-height: 1em;
+$wds-step-height: 12px;
 
 .wds-stepper {
   display: flex;
@@ -8,14 +8,24 @@ $wds-step-height: 1em;
   height: #{$wds-step-height};
   width: 100%;
 }
+.wds-stepper__step.progress-step__active:after {
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: width .5s ease-out;
+  width: var(--progress-width);
+}
 
 .wds-stepper>.wds-stepper__step:first-child {
-  border-radius: 6px 0px 0px 6px;
+  border-radius: 12px 0px 0px 12px;
   margin-right: 3px;
 }
 .wds-stepper>.wds-stepper__step:not(:last-child) {
   margin-right: 3px;
 }
 .wds-stepper>.wds-stepper__step:last-child {
-  border-radius: 0px 6px 6px 0px;
+  border-radius: 0px 12px 12px 0px;
 }
