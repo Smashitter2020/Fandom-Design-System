@@ -3,3 +3,12 @@ $wds-step-height: 1em;
 .wds-stepper {
   display: inline-flex;
 }
+
+.wds-stepper__step {
+  height: #{$wds-step-height};
+  width: 100%;
+}
+
+.wds-stepper>.wds-stepper__step:first-child {
+  border
+}
