@@ -10,6 +10,7 @@ $wds-tab-transition: .1s;
   cursor: pointer;
   position: #{$wds-tab-position};
   transition: #{$wds-tab-transition} box-shadow;
+  line-height: #{$wds-tab-line-height};
   display: inline-flex;
 }
 .wds-tabs__tab.disabled {
