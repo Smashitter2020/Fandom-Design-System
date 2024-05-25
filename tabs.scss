@@ -3,6 +3,8 @@ $wds-tab-position: relative;
 $wds-tab-active-color: #520042;
 $wds-tab-transition: .1s;
 
+$wds-tab-label-height: 40px;
+
 .tabber.wds_tabber {
   border-bottom: 1px solid #00000040;
 }
@@ -12,6 +14,17 @@ $wds-tab-transition: .1s;
   transition: #{$wds-tab-transition} box-shadow;
   line-height: #{$wds-tab-line-height};
   display: inline-flex;
+}
+.wds-tabs__tab-label {
+  height: #{$wds-tab-label-height};
+  display: inline-flex;
+  letter-spazing: .5px;
+  margin: 0 11px;
+  text-decoration: none;
+  text-align: center;
+  transition: #{$wds-tab-transition} color;
+  font-weight: 500;
+  white-space: nowrap;
 }
 .wds-tabs__tab.disabled {
   pointer-events: none;
