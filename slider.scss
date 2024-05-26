@@ -1,0 +1,15 @@
+$wds-slider-height: 1em;
+
+$wds-slider-thumb-color: green;
+$wds-slider-thumb-size: 1.5em;
+
+.wds-slider {
+  appearance: none;
+  border-radius: 16px;
+  background: #eee;
+}
+.wds-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: #{$wds-slider-thumb-size};
+  height: #{$wds-slider-thumb-size};
+}
