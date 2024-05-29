@@ -13,15 +13,23 @@ $wds-dropdown-content-item-line-height: 1em;
 .wds-dropdown__toggle:focus, .wds-dropdown__toggle:hover ~ .wds-dropdown__content {
   display: block; 
 }
+.wds-dropdown__content:hover, .wds-dropdown__content:focus {
+  display: block;
+}
 .wds-dropdown__content {
   padding: #{$wds-dropdown-content-padding};
   margin: 0;
   list-style-type: none;
   display: none;
+  position: absolute;
 }
-.wds-dropdown__content>li {
+.wds-list {
+  padding: 7px 10px;
+}
+.wds-list>li {
   font-size: #{$wds-dropdown-content-item-font-size};
   line-height: #{$wds-dropdown-content-item-line-height};
   padding: 11px 0;
   font-weight: normal;
+  cursor: pointer;
 }
