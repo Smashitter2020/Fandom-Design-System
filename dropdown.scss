@@ -19,12 +19,12 @@ $wds-dropdown-content-item-line-height: 1em;
 .wds-dropdown__content {
   padding: #{$wds-dropdown-content-padding};
   margin: 0;
-  list-style-type: none;
   display: none;
   position: absolute;
 }
 .wds-list {
   padding: 7px 10px;
+  list-style-type: none;
 }
 .wds-list>li {
   font-size: #{$wds-dropdown-content-item-font-size};
