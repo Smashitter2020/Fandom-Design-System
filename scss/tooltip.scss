@@ -1,0 +1,8 @@
+$wds-tooltip-color: black;
+$wds-tooltip-padding: 10px 15px;
+
+[data-wds-tooltip="true"] {
+  content: "Tooltip text";
+  position: absolute;
+  padding: #{$wds-tooltip-padding};
+}
