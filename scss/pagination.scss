@@ -1,0 +1,17 @@
+$wds-pagination-page-number-padding: 15px 10px;
+$wds-pagination-page-link-font-size: 16px;
+
+.wds-pagination {
+  display: block;
+}
+.wds-pagination__pages {
+  display: inline-flex;
+  list-style-type: none;
+}
+.wds-pagination__page-number {
+  padding: #{$wds-pagination-page-number-padding};
+}
+.wds-pagination__page-link {
+  font-size: #{$wds-pagination-page-link-font-size};
+  text-decoration: none;
+}
