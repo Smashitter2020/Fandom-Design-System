@@ -1,17 +1,31 @@
-$wds-pagination-page-number-padding: 15px 10px;
 $wds-pagination-page-link-font-size: 16px;
+
+$wds-pagination-item-size: 36px;
 
 .wds-pagination {
   display: block;
 }
 .wds-pagination__pages {
-  display: inline-flex;
-  list-style-type: none;
+  display: flex;
+  padding: 0 6px;
+  list-style: none;
+  margin: 0;
 }
 .wds-pagination__page-number {
-  padding: #{$wds-pagination-page-number-padding};
+  min-width: #{$wds-pagination-item-size};
+  height: #{$wds-pagination-item-size};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wds-pagination__page-number:not(:last-child), .wds-pagination__page-number-separator:not(:last-child) {
+  margin-right: 12px;
 }
 .wds-pagination__page-link {
   font-size: #{$wds-pagination-page-link-font-size};
+  padding: 0 12px;
+  border-radius: 3px;
   text-decoration: none;
+  display: block;
+  font-weight: 700;
 }
