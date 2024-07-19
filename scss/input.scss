@@ -12,7 +12,7 @@ $wds-input-padding: 0 0 2px;
   font-size: #{$wds-input-font-size};
   font-family: inherit;
   outline: none;
-  padding: #{wds-input-padding};
+  padding: #{$wds-input-padding};
   line-height: 1;
   resize: none;
   width: 100%;
