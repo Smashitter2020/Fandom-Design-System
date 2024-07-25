@@ -26,6 +26,12 @@ $wds-button-disabled: .5;
   opacity: #{$wds-button-disabled};
   pointer-events: none;
 }
+.wds-button.wds-floating-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 18px;
+}
 [data-wds-theme="light"] {
   .wds-button {
     background: #520044;
