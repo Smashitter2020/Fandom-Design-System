@@ -12,7 +12,7 @@ $wds-button-disabled: .5;
   font-size: #{$wds-button-font-size};
   border-radius: #{$wds-button-border-radius};
   font-weight: #{$wds-button-font-weight};
-  transition: #{$wds-button-transition};
+  transition: #{$wds-button-transition} background;
   line-height: #{$wds-button-line-height};
   letter-spacing: #{$wds-button-letter-spacing};
   text-transform: uppercase;
@@ -20,6 +20,7 @@ $wds-button-disabled: .5;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  border: 0;
 }
 .wds-button:disabled, .wds-button.disabled {
   opacity: #{$wds-button-disabled};
@@ -34,7 +35,7 @@ $wds-button-disabled: .5;
     background: #b80099;
   }
   .wds-button:focus {
-    outline: 3px solid rgba(255, 197, 0, 0.5);
+    outline: 3px solid rgba(82, 0, 68, 0.5);
   }
 }
 [data-wds-theme="dark"] {
@@ -46,6 +47,6 @@ $wds-button-disabled: .5;
     background: #997600;
   }
   .wds-button:focus {
-    outline: 3px solid rgba(82, 0, 68, 0.5);
+    outline: 3px solid rgba(255, 197, 0, 0.5);
   }
 }
