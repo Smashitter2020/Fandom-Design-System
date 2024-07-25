@@ -25,3 +25,27 @@ $wds-button-disabled: .5;
   opacity: #{$wds-button-disabled};
   pointer-events: none;
 }
+[data-wds-theme="light"] {
+  .wds-button {
+    background: #520044;
+    color: white;
+  }
+  .wds-button:hover {
+    background: #b80099;
+  }
+  .wds-button:focus {
+    outline: 3px solid rgba(255, 197, 0, 0.5);
+  }
+}
+[data-wds-theme="dark"] {
+  .wds-button {
+    background: #ffc500;
+    color: #1e0c1b;
+  }
+  .wds-button:hover {
+    background: #997600;
+  }
+  .wds-button:focus {
+    outline: 3px solid rgba(82, 0, 68, 0.5);
+  }
+}
