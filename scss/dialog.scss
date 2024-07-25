@@ -14,8 +14,12 @@ $wds-dialog-title-font-size: 24px;
 $wds-dialog-title-line-height: 28px;
 $wds-dialog-title-padding: 24px 24px 0;
 
-$wds-dialog-action-padding: 24px;
-
+$wds-dialog-action-padding: 12px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .wds-dialog {
   top: 0;
   left: 0;
@@ -46,6 +50,19 @@ $wds-dialog-action-padding: 24px;
 }
 .wds-dialog__actions {
   padding: #{$wds-dialog-action-padding};
+  display: flex;
+  justify-content: flex-end;
+  grid-column-gap: 12px;
+}
+.wds-dialog__actions-button {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: none;
+  padding: 7px 18px;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
 }
 [data-wds-theme="light"] {
   .wds-dialog__wrapper {
@@ -55,6 +72,9 @@ $wds-dialog-action-padding: 24px;
   .wds-dialog__actions {
     border-top: 1px solid #d6d0d5;
   }
+  .wds-dialog__actions-button {
+    color: #3a3a3a;
+  }
 }
 [data-wds-theme="dark"] {
   .wds-dialog__wrapper {
@@ -63,6 +83,9 @@ $wds-dialog-action-padding: 24px;
   }
   .wds-dialog__actions {
     border-top: 1px solid #595358;
+  }
+  .wds-dialog__actions-button {
+    color: #e6e6e6;
   }
 }
 @keyframes move-in {
