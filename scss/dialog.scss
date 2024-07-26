@@ -50,6 +50,7 @@ $wds-dialog-action-padding: 12px;
 .wds-dialog__content {
   font-size: #{$wds-dialog-content-font-size};
   padding: #{$wds-dialog-content-padding};
+  line-height: 24px;
 }
 .wds-dialog__actions {
   padding: #{$wds-dialog-action-padding};
