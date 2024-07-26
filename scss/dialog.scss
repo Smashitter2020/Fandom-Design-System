@@ -44,6 +44,9 @@ $wds-dialog-action-padding: 12px;
   line-height: #{$wds-dialog-title-line-height};
   padding: #{$wds-dialog-title-padding};
 }
+.wds-dialog__title+.wds-dialog__content {
+  padding-top: 12px;
+}
 .wds-dialog__content {
   font-size: #{$wds-dialog-content-font-size};
   padding: #{$wds-dialog-content-padding};
