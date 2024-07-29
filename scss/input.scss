@@ -22,7 +22,6 @@ $wds-input-padding: 0 0 2px;
 }
 
 .wds-input__label {
-  color: #3a3a3a80;
   top: 0;
   left: 0;
   position: absolute;
@@ -35,4 +34,26 @@ $wds-input-padding: 0 0 2px;
 .wds-input__field:focus ~ .wds-input__label, .wds-input__field:not(:placeholder-shown) ~ .wds-input__label {
   top: 0;
   font-size: 12px;
+}
+[data-wds-theme="light"] {
+  .wds-input__label {
+    color: #3a3a3a80;
+  }
+  .wds-input__field {
+    color: #3a3a3a;
+  }
+  .wds-input__field:focus {
+    border-color: #520044;
+  }
+}
+[data-wds-theme="dark"] {
+  .wds-input__label {
+    color: #e6e6e680;
+  }
+  .wds-input__field {
+    color: #e6e6e6;
+  }
+  .wds-input__field:focus {
+    border-color: #ffc500;
+  }
 }
