@@ -31,12 +31,18 @@ $wds-input-padding: 0 0 2px;
   white-space: nowrap;
   top: 20px;
 }
+
+.wds-input__hint {
+  line-height: 1;
+  font-size: 12px;
+  font-weight: bold;
+}
 .wds-input__field:focus ~ .wds-input__label, .wds-input__field:not(:placeholder-shown) ~ .wds-input__label {
   top: 0;
   font-size: 12px;
 }
 [data-wds-theme="light"] {
-  .wds-input__label {
+  .wds-input__label, .wds-input__hint {
     color: #3a3a3a80;
   }
   .wds-input__field {
@@ -47,7 +53,7 @@ $wds-input-padding: 0 0 2px;
   }
 }
 [data-wds-theme="dark"] {
-  .wds-input__label {
+  .wds-input__label, .wds-input__hint {
     color: #e6e6e680;
   }
   .wds-input__field {
