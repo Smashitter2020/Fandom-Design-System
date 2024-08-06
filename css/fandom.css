@@ -1,0 +1,57 @@
+/* Buttons */
+.wds-button {
+  padding: 7px 18px;
+  font-size: 12px;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: .3s background, .3s border-color;
+  line-height: 16px;
+  letter-spacing: .15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  min-height: 18px;
+}
+.wds-button:disabled, .wds-button.disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+.wds-button.wds-floating-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.wds-button.wds-floating-button__icon {
+  font-size: 18px;
+}
+[data-wds-theme="light"] {
+  .wds-button {
+    background: #520044;
+    color: white;
+    border-color: #520044;
+  }
+  .wds-button:hover {
+    background: #b80099;
+    border-color: #b80099;
+  }
+  .wds-button:focus {
+    outline: 3px solid rgba(82, 0, 68, 0.5);
+  }
+}
+[data-wds-theme="dark"] {
+  .wds-button {
+    background: #ffc500;
+    color: #1e0c1b;
+    border-color: #ffc500;
+  }
+  .wds-button:hover {
+    background: #997600;
+    border-color: #997600;
+  }
+  .wds-button:focus {
+    outline: 3px solid rgba(255, 197, 0, 0.5);
+  }
+}
