@@ -90,6 +90,15 @@
   .wds-button:hover {
     background: #b80099;
   }
+  .wds-button.wds-is-secondary {
+    outline: 1px solid #3a3a3a;
+    color: #3a3a3a;
+    background: none;
+  }
+  .wds-button.wds-is-secondary:hover {
+    color: #6d6d6d;
+    outline-color: #6d6d6d;
+  }
 }
 [data-wds-theme=dark] {
   .wds-button {
@@ -98,5 +107,14 @@
   }
   .wds-button:hover {
     background: #997600;
+  }
+  .wds-button.wds-is-secondary {
+    outline: 1px solid #e6e6e6;
+    color: #e6e6e6;
+    background: none;
+  }
+  .wds-button.wds-is-secondary:hover {
+    color: #b3b3b3;
+    outline-color: #b3b3b3;
   }
 }
