@@ -91,13 +91,13 @@
     background: #b80099;
   }
   .wds-button.wds-is-secondary {
-    outline: 1px solid #3a3a3a;
+    border: 1px solid #3a3a3a;
     color: #3a3a3a;
     background: none;
   }
   .wds-button.wds-is-secondary:hover {
     color: #6d6d6d;
-    outline-color: #6d6d6d;
+    border-color: #6d6d6d;
   }
 }
 [data-wds-theme=dark] {
@@ -109,12 +109,12 @@
     background: #997600;
   }
   .wds-button.wds-is-secondary {
-    outline: 1px solid #e6e6e6;
+    border: 1px solid #e6e6e6;
     color: #e6e6e6;
     background: none;
   }
   .wds-button.wds-is-secondary:hover {
     color: #b3b3b3;
-    outline-color: #b3b3b3;
+    border-color: #b3b3b3;
   }
 }
